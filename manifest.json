@@ -1,7 +1,7 @@
 {
   "name": "Chrome Wheel",
   "version": "1.0",
-  "description": "Makes shift-scrollwheel scroll in full-page increments instead of horizontal scrolling.",
+  "description": "Makes alt-scrollwheel scroll in full-page increments instead of horizontal scrolling.",
   "permissions": [ "tabs" ],
   "content_scripts": [
     {
