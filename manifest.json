@@ -1,4 +1,5 @@
 {
+  "manifest_version": 2,
   "name": "Chrome Wheel",
   "version": "1.0",
   "description": "Makes alt-scrollwheel scroll in full-page increments instead of horizontal scrolling.",
