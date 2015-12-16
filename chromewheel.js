@@ -6,8 +6,8 @@
         } else if (event.altKey || event.metaKey) {
             window.scrollBy(event.wheelDeltaX * -10, event.wheelDeltaY * -10);
         } else if (event.ctrlKey) {
-            // alas, Chrome intercepts Ctrl-mousewheel before we ever see it
             window.scrollBy(event.wheelDeltaX * -10, event.wheelDeltaY * -10);
+            event.preventDefault();
         }
     }
     document.addEventListener("mousewheel", handleMousewheel, false);
