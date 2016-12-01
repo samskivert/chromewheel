@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Chrome Wheel",
   "version": "1.0",
-  "description": "Makes alt-scrollwheel scroll in full-page increments instead of horizontal scrolling.",
+  "description": "Makes alt/shift/ctrl-scrollwheel scroll in large increments instead of scaling, horizontal scrolling, or whatever random thing they've reassigned the default behavior to.",
   "permissions": [ "tabs" ],
   "content_scripts": [
     {
